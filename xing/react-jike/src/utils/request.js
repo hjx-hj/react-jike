@@ -3,7 +3,7 @@ import axios from 'axios'
 import { getToken, removeToken } from './token'
 
 const request = axios.create({
-  baseURL: '/api/v1_0',
+  baseURL: import.meta.env.PROD ? 'https://geek.itheima.net/v1_0' : '/api/v1_0',
   timeout: 5000
 })
 

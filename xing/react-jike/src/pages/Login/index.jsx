@@ -45,6 +45,9 @@ const Login = () => {
             </Button>
           </Form.Item>
         </Form>
+        <div className="login-tip">
+          测试账号：13800000002　验证码：246810
+        </div>
       </Card>
     </div>
   )
